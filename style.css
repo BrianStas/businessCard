@@ -1,0 +1,12 @@
+* {box-sizing: border-box;}
+header {
+    background-color: #C05746;
+    color: white;
+    text-align: center;
+    height: 50%;
+}
+main {
+    background-color: #D0E3C4;}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    }
