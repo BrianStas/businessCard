@@ -1,12 +1,61 @@
 * {box-sizing: border-box;}
 header {
+  /* got the colors from coolors.co as recommended in the lessons*/
     background-color: #C05746;
     color: white;
     text-align: center;
-    height: 50%;
+    height: 100px;
+    width: auto;
 }
 main {
-    background-color: #D0E3C4;}
+    background-color: #D0E3C4;
+    font-family: Arial, Helvetica, sans-serif;
+      }
 h1 {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+  /* the padding elements were to try and center my name in the header block*/
+    padding-top: 15px;
+  padding-bottom; 0px;
+  margin: 0px;
+    
     }
+/* welcome is h2; other titles are h3*/
+h2, h3 {
+  text-align: center;
+  
+}
+/*subtitle and footer are h4*/
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  text-align: justify;
+}
+
+div {
+  /* this aligns the text off the sides of the screen for readability*/
+  margin: 0px 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: #0A3200;
+  color: white;
+  text-align: center;
+  /* trying to push down the name off the border*/
+  height: 50px;
+  padding: 10px;
+}
+a:link{
+  color: #0A3200;
+}
+a:visited{
+  color: #C05746;
+}
+a:hover {
+  color: #379634;
+}
